@@ -21,7 +21,7 @@ export default function Login() {
     if (localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)) {
       navigate("/");
     }
-  }, []);
+  }, [navigate]);
 
   const handleChange = (event) => {
     setValues({ ...values, [event.target.name]: event.target.value });
@@ -123,6 +123,7 @@ const FormContainer = styled.div`
     background-color: #00000076;
     border-radius: 2rem;
     padding: 5rem;
+    box-shadow: 0 0 30px 4px #18005b;
   }
   input {
     background-color: transparent;

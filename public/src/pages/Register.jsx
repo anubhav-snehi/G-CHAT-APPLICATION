@@ -157,6 +157,7 @@ const FormContainer = styled.div`
     background-color: #00000076;
     border-radius: 2rem;
     padding: 3rem 5rem;
+    box-shadow: 0 0 30px 4px #18005b;
   }
   input {
     background-color: transparent;

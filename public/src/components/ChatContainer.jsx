@@ -174,7 +174,8 @@ const Container = styled.div`
     .recieved {
       justify-content: flex-start;
       .content {
-        background-color: #9900ff20;
+        background-color: #9a86f3;
+        color: black;
       }
     }
   }
